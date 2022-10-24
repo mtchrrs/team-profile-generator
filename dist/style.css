@@ -1,0 +1,41 @@
+
+body {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: auto;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+#team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container {
+    width: 45%;
+    border: 2px solid black;
+    margin: auto;
+    height: auto;
+}
+
+.card-top {
+    padding: 10px;
+    width: auto;
+    height: 120px;
+    background-color: white;
+}
+
+.card-bottom {
+   background-color: whitesmoke;
+   height: 250px;
+}
+
+.card-bottom div{
+    padding: 8px;
+}
